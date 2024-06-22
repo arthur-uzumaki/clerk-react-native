@@ -11,7 +11,7 @@ interface ButtonProps extends TouchableOpacityProps {
 export function Button({ icon, title, isLoading = false, ...rest }: ButtonProps) {
   return (
     <TouchableOpacity
-      className='w-full flex-row items-center justify-center gap-7 bg-black p-5 rounded-2xl'
+      className='w-full flex-row items-center justify-center gap-7 bg-red-700 p-5 rounded-2xl'
       disabled={isLoading}
       activeOpacity={0.8}
       {...rest}
