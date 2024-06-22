@@ -40,7 +40,7 @@ export default function RootLayout() {
       publishableKey={publicKey}
       tokenCache={tokenCache}
       >
-        <StatusBar style="dark" />
+        <StatusBar style="light" />
         <InitialLayout />
       </ClerkProvider>
     </>
